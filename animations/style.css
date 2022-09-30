@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+    margin-left: 20px;
+    border-radius: 20px;
+    
+
+}
+.keanu{
+
+    background-image: url("keanu-mirror.jpg");
+    background-size: cover;
+  
+}
+
+.keanu:hover{
+    
+    background-image: url("keanu-government.png");
+    background-size: cover;
+    transition: all .4s;
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    
+
+
+}
+
+
+
+.middle{
+
+    background-image: url("2.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.middle:hover{
+    rotate: 180deg ;
+    transition: all 2s;
+    filter: brightness(100%);
+    position: relative ;
+    transform: translate(0px, 160px);
+
+}
+
+
+.leo{
+    background-image: url("leo.jpg");
+    background-size:cover;
+    border-radius: 100px;
+    filter: grayscale(100%);
+}
+.leo:hover{
+border-radius: 20px;
+transition: .5s;
+filter: brightness(100%);
+
+}
+
+
+.feu{
+    background-image: url("feu.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width : 100px;
+
+}
+.voiture{
+    background-image: url("voiture.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width : 1200px;
+
+}
+
+.voiture:hover{
+
+    transform: translate(110vh);
+    transition: width 5s;
+    
+
+}
+
+
+.container2{
+    display:flex;
+    flex-wrap:wrap; 
+}
