@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+
+}
+
+
+.panneaux{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+
+}
+
+.panneau{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    background-position: center;
+    transition: 2s flex ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: border;
+    
+    justify-content: space-around;
+    
+}
+
+.panneau:hover{
+
+    flex:5;
+ 
+
+}
+
+.paysage1{
+    background-image: url("img/paysage1.jpg");
+    
+
+}
+
+
+.paysage2{
+
+    background-image: url("img/paysage2.jpg");
+}
+
+.paysage3{
+
+    background-image: url("img/paysage3.jpg");
+}
+
+.paysage4{
+
+    background-image: url("img/paysage4.jpg");
+}
+
+.paysage5{
+
+    background-image: url("img/paysage5.jpg");
+}
+
+.panneau .textHaut{
+    transform: translateY(-800%);
+    
+    transition: 1s;
+    background-image: url("img/perso1.jpg");
+    background-size: cover;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-position: center;
+
+}
+
+
+
+.panneau:hover .textHaut{
+    transform: translateY(0);
+    
+    
+}
+
+.panneau .textBas{
+    transform: translateY(800%);
+    opacity: 0%;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+}
+
+.panneau:hover .textBas{
+    transform: translateY(0);
+    opacity: 100%;
+
+}
