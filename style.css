@@ -1,0 +1,63 @@
+
+body {
+    margin: 0px;
+  
+    
+}
+
+.header {
+
+    background-image: url("/Users/charlesagostinelli/Documents/header/img/montagne.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    
+    
+   
+
+}
+
+
+
+.topbar {
+
+    background-color: #00000069;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+
+
+.logo { 
+
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.button{
+    border-radius: 10%;
+    background-color: rgba(10, 226, 187, 0.717);
+    border: solid 2px rgba(10, 226, 187, 0.717);
+
+}
+
+.punchline { 
+
+    font-size: 4rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+    justify-content: center;
+    align-content: center;
+    
+
+
+
+}
