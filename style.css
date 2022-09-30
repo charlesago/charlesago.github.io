@@ -7,7 +7,7 @@ body {
 
 .header {
 
-    background-image: url("/Users/charlesagostinelli/Documents/header/img/montagne.webp");
+    background-image: url("img/montagne.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
